@@ -5,6 +5,6 @@ Package.describe({
 Npm.depends({'node-gcm':"0.9.6"});
 
 Package.on_use(function (api) {
-	api.use("GCM")
+	api.use("meteor-gcm")
   api.add_files('lib.js', 'server');
 });

@@ -5,6 +5,6 @@ Package.describe({
 Npm.depends({'node-gcm':"0.9.6"});
 
 Package.on_use(function (api) {
-	api.export("GCM")
+	api.use("GCM")
   api.add_files('lib.js', 'server');
 });
